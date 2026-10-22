@@ -1,0 +1,16 @@
+title: "Idea: "
+labels: [discussion]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What could be built or improved?
+    validations:
+      required: true
+  - type: textarea
+    id: usefulness
+    attributes:
+      label: Why it might be useful
+    validations:
+      required: false

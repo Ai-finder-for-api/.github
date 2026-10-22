@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public GitHub profile snapshot",
+  "type": "object",
+  "required": ["generated_at", "profile", "repository_count"],
+  "properties": {
+    "generated_at": {"type": "string", "format": "date-time"},
+    "profile": {"type": "object", "required": ["login"], "properties": {
+      "login": {"type": "string"},
+      "name": {"type": ["string", "null"]},
+      "bio": {"type": ["string", "null"]},
+      "public_repos": {"type": "integer"},
+      "followers": {"type": "integer"},
+      "following": {"type": "integer"}
+    }},
+    "repository_count": {"type": "integer"},
+    "languages": {"type": "object", "additionalProperties": {"type": "integer"}}
+  }
+}

@@ -1,0 +1,25 @@
+name: Validate profile
+on:
+  push:
+    paths:
+      - "README.md"
+      - "assets/**"
+      - "docs/**"
+      - "scripts/**"
+      - ".github/workflows/validate-profile.yml"
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: python scripts/check_profile.py
+      - run: python scripts/validate_media.py
+      - run: python scripts/validate_svg.py
+      - run: python -m unittest discover -s scripts/tests -v

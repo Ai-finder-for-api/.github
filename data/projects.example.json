@@ -1,0 +1,7 @@
+{
+  "projects": [
+    {"name": "Quantum Suite", "description": "Systems and creative-software experiments.", "status": "active", "public_url": "", "screenshot": "assets/screenshots/quantum-suite.png", "demo_gif": "assets/gifs/quantum-suite-demo.gif"},
+    {"name": "Falcon Hub MCP", "description": "MCP tooling connecting AI workflows to practical tools.", "status": "active", "public_url": "", "screenshot": "assets/screenshots/falcon-hub-mcp.png", "demo_gif": "assets/gifs/falcon-hub-mcp-demo.gif"}
+  ],
+  "note": "Example catalogue only. Empty URLs and media paths are placeholders."
+}

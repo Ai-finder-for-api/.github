@@ -1,0 +1,42 @@
+name: Daily Python and JavaScript toolbox
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/**"
+      - "data/**"
+      - "README.md"
+      - ".github/workflows/daily-toolbox.yml"
+permissions:
+  contents: read
+concurrency:
+  group: daily-toolbox
+  cancel-in-progress: true
+jobs:
+  python-and-node:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Python syntax and tests
+        run: |
+          python -m compileall -q scripts
+          python -m unittest discover -s scripts/tests -v
+          python scripts/check_profile.py
+          python scripts/validate_media.py
+          python scripts/validate_svg.py
+      - name: JavaScript syntax
+        run: |
+          node --check scripts/js/daily-maintenance.mjs
+          node --check scripts/js/check-markdown-links.mjs
+      - name: JavaScript link checks
+        run: node scripts/js/check-markdown-links.mjs
+      - name: Run daily JavaScript report
+        run: node scripts/js/daily-maintenance.mjs

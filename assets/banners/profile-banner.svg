@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="420" viewBox="0 0 1500 420" role="img" aria-labelledby="title desc">
+<title id="title">Quantum Suite orbital artwork</title>
+<desc id="desc">Original abstract orbital illustration in violet, indigo, and cyan.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070914"/><stop offset=".55" stop-color="#17102f"/><stop offset="1" stop-color="#071c2d"/></linearGradient>
+  <linearGradient id="beam"><stop stop-color="#9b6cff"/><stop offset=".55" stop-color="#d6a8ff"/><stop offset="1" stop-color="#3de2f2"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#8a42ff" stop-opacity=".42"/><stop offset="1" stop-color="#8a42ff" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#a9a4ff" stroke-opacity=".09"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1500" height="420" rx="24" fill="url(#bg)"/><rect width="1500" height="420" rx="24" fill="url(#grid)"/>
+<circle cx="1115" cy="206" r="300" fill="url(#halo)"/>
+<g fill="none" stroke="url(#beam)" stroke-width="2.2" opacity=".86" filter="url(#glow)">
+  <ellipse cx="1110" cy="210" rx="295" ry="88" transform="rotate(-24 1110 210)"/>
+  <ellipse cx="1110" cy="210" rx="250" ry="132" transform="rotate(37 1110 210)" opacity=".7"/>
+  <ellipse cx="1110" cy="210" rx="185" ry="185" opacity=".45" stroke-dasharray="3 14"/>
+  <path d="M830 350L1040 210 1195 90 1370 165M930 70L1110 210 1290 330"/>
+</g>
+<g fill="#f2eaff"><circle cx="1040" cy="210" r="5"/><circle cx="1195" cy="90" r="4"/><circle cx="1290" cy="330" r="4"/><circle cx="930" cy="70" r="3"/></g>
+<g fill="none" stroke="#7cecff" stroke-opacity=".45"><path d="M70 365H510M70 373H370M1250 48H1430M1300 58H1430"/></g>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="90" y="132" font-size="19" letter-spacing="8" fill="#a99bff">IDEAS / SYSTEMS / EXPERIMENTS</text><text x="86" y="220" font-size="64" font-weight="650" letter-spacing="3" fill="#f7f4ff">QUANTUM SUITE</text><text x="92" y="270" font-size="23" fill="#c9c4e8">Building tools, exploring systems, learning by making.</text><text x="92" y="324" font-size="15" letter-spacing="4" fill="#72dff1">BUILD  ·  TEST  ·  ITERATE</text></g>
+<path d="M62 90V340" stroke="url(#beam)" stroke-width="5" stroke-linecap="round"/>
+</svg>
