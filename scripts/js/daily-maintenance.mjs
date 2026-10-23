@@ -13,7 +13,7 @@ async function countFiles(dir) {
   }
   return count;
 }
-const readme = await readFile(path.join(root, ".github", "profile", "README.md"), "utf8");
+const readme = await readFile(path.join(root, "profile", "README.md"), "utf8");
 const logo = await stat(path.join(root, "assets", "images", "quantum-suite-logo.jpeg"));
 const report = {
   generated_at: new Date().toISOString(),
