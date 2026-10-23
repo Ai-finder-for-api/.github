@@ -16,12 +16,24 @@ This profile is a tour of the things I enjoy building—not a product landing pa
 
 
 <p align="center">
-  <img src="assets/gifs/gif.gif" alt="Animated GIF from my project workspace" width="100%" />
+  <img src="assets/gifs/gif.gif" alt="Animated GIF from my project workspace" width="100%" height="470" style="object-fit: cover;" />
 </p>
 
 <p align="center"><sub>GIF preview · <a href="assets/gifs/gif.gif">Open the original file ↗</a></sub></p>
 
 
+
+## ✦ GitHub activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ai-finder-for-api&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&include_all_commits=true" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ai-finder-for-api&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Most used public repository languages" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ai-finder-for-api&theme=github-compact&hide_border=true&area=true" alt="GitHub activity graph" width="100%" />
+</p>
+
+<sub>These community-hosted cards may be cached or temporarily unavailable. They are a snapshot, not a scoreboard.</sub>
 
 ## ✦ What I'm working on
 
@@ -125,18 +137,6 @@ More generally, the Python things I like building tend to follow a few rules:
 - **Repeatability:** the same inputs should produce understandable, comparable results.
 - **Real tests:** include awkward paths, empty files, malformed input, and failure cases—not just the happy path.
 - **Honest reporting:** say what was checked instead of claiming a tool proves more than it can.
-
-## ✦ GitHub activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ai-finder-for-api&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&include_all_commits=true" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ai-finder-for-api&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Most used public repository languages" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ai-finder-for-api&theme=github-compact&hide_border=true&area=true" alt="GitHub activity graph" width="100%" />
-</p>
-
-<sub>These community-hosted cards may be cached or temporarily unavailable. They are a snapshot, not a scoreboard.</sub>
 
 ## ✦ How I like to build
 
