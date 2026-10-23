@@ -2,7 +2,7 @@ name: Validate profile
 on:
   push:
     paths:
-      - ".github/profile/README.md"
+      - "profile/README.md"
       - "assets/**"
       - "docs/**"
       - "scripts/**"

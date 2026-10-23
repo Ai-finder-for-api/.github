@@ -7,7 +7,7 @@ on:
     paths:
       - "scripts/**"
       - "data/**"
-      - ".github/profile/README.md"
+      - "profile/README.md"
       - ".github/workflows/daily-toolbox.yml"
 permissions:
   contents: read

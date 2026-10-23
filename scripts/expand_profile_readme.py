@@ -1,6 +1,6 @@
 from pathlib import Path
 import itertools
-p=Path(__file__).resolve().parents[1]/'.github'/'profile'/'README.md'
+p=Path(__file__).resolve().parents[1]/'profile'/'README.md'
 base=p.read_text(encoding='utf-8-sig').rstrip()
 topics={
 'Planning':'Start with a concrete question, write down the assumptions, and choose an experiment small enough to finish. A useful result is not always a successful implementation; a clear negative result can save time and redirect effort.',

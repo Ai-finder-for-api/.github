@@ -4,7 +4,7 @@ import path from "node:path";
 const root = process.cwd();
 // This repository is a personal GitHub profile: validate the README only.
 // Do not require deleted documentation pages or unrelated project READMEs.
-const files = [".github/profile/README.md"];
+const files = ["profile/README.md"];
 const missing = [];
 
 for (const file of files) {

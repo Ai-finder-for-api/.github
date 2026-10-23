@@ -4,7 +4,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-README = ROOT / ".github" / "profile" / "README.md"
+README = ROOT / "profile" / "README.md"
 
 def main() -> int:
     errors = []
