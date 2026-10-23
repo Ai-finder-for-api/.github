@@ -4,12 +4,12 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-README = ROOT / "README.md"
+README = ROOT / ".github" / "profile" / "README.md"
 
 def main() -> int:
     errors = []
     if not README.is_file():
-        print("Missing required file: README.md")
+        print("Missing required file: profile/README.md")
         return 1
 
     readme = README.read_text(encoding="utf-8")

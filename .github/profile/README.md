@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banners/banner.png" alt="Personal profile banner" width="100%" />
+  <img src="../../assets/banners/banner.png" alt="Personal profile banner" width="100%" />
 
   <h1>Hey, welcome to my corner of GitHub ✦</h1>
   <p><em>I build things, experiment with ideas, and learn by making.</em></p>
@@ -16,10 +16,10 @@ This profile is a tour of the things I enjoy building—not a product landing pa
 
 
 <p align="center">
-  <img src="assets/gifs/gif.gif" alt="Animated GIF from my project workspace" width="100%" height="470" style="object-fit: cover;" />
+  <img src="../../assets/gifs/gif.gif" alt="Animated GIF from my project workspace" width="100%" height="470" style="object-fit: cover;" />
 </p>
 
-<p align="center"><sub>GIF preview · <a href="assets/gifs/gif.gif">Open the original file ↗</a></sub></p>
+<p align="center"><sub>GIF preview · <a href="../../assets/gifs/gif.gif">Open the original file ↗</a></sub></p>
 
 
 
@@ -66,9 +66,9 @@ This profile is a tour of the things I enjoy building—not a product landing pa
 Quantum Suite is one of my projects, not the whole story. The bigger idea is to explore how useful low-level components and developer tools can grow into creative applications.
 
 <p align="center">
-  <a href="assets/videos/video.mp4"><img src="assets/images/quantum-suite-logo.jpeg" alt="Open the Quantum Suite project video" width="420" /></a>
+  <a href="../../assets/videos/video.mp4"><img src="../../assets/images/quantum-suite-logo.jpeg" alt="Open the Quantum Suite project video" width="420" /></a>
   <br />
-  <sub><a href="https://quantumsuite.pages.dev/">Visit the website ↗</a> · <a href="assets/videos/video.mp4">Open the project video ↗</a></sub>
+  <sub><a href="https://quantumsuite.pages.dev/">Visit the website ↗</a> · <a href="../../assets/videos/video.mp4">Open the project video ↗</a></sub>
 </p>
 
 GitHub may display repository video files differently depending on the client, so the link opens the actual video file rather than pretending this is a custom embedded player.
@@ -153,6 +153,6 @@ More generally, the Python things I like building tend to follow a few rules:
 There is always another idea to test, another tool to learn, or another bug to understand. I want this page to point toward real projects and show the kinds of problems I enjoy exploring—without pretending every experiment is already finished.
 
 <p align="center">
-  <img src="assets/images/README_FOOTER.png" alt="Violet and cyan orbital artwork" width="100%" />
+  <img src="../../assets/images/README_FOOTER.png" alt="Violet and cyan orbital artwork" width="100%" />
   <sub>Stay curious. Keep building. ✨</sub>
 </p>

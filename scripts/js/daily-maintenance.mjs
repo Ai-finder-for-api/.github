@@ -13,7 +13,7 @@ async function countFiles(dir) {
   }
   return count;
 }
-const readme = await readFile(path.join(root, "README.md"), "utf8");
+const readme = await readFile(path.join(root, ".github", "profile", "README.md"), "utf8");
 const logo = await stat(path.join(root, "assets", "images", "quantum-suite-logo.jpeg"));
 const report = {
   generated_at: new Date().toISOString(),
@@ -23,7 +23,7 @@ const report = {
   checks: {
     has_profile_sections: ["## ✦ What I'm working on", "## ✦ GitHub activity", "## ✦ Thanks for stopping by"].every((s) => readme.includes(s)),
     no_old_personal_heading: !/^#\s+[^#\n]+\s+—\s+building things that do things/im.test(readme),
-    has_logo_reference: readme.includes("assets/images/quantum-suite-logo.jpeg")
+    has_logo_reference: readme.includes("../../assets/images/quantum-suite-logo.jpeg")
   }
 };
 await writeFile(output, JSON.stringify(report, null, 2) + "\n", "utf8");
